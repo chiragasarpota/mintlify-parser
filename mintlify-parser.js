@@ -45,9 +45,9 @@ async function parseEnglishOnly(url) {
       if (sourceMatch) {
         const sourceUrl = sourceMatch[1];
 
-        // Check if URL contains language codes like /es/, /fr/, /de/, etc.
+        // Check if URL contains language codes like /es/, /fr/, /de/, /pt-BR/, /zh-CN/, etc.
         // We want to exclude any URL with a language code path
-        const hasLangCode = /\/[a-z]{2}\//.test(sourceUrl);
+        const hasLangCode = /\/[a-z]{2}(-[A-Z]{2})?\//i.test(sourceUrl);
 
         if (!hasLangCode) {
           englishSections.push(section.trim());
