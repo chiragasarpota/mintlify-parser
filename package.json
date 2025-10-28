@@ -1,6 +1,6 @@
 {
   "name": "mintlify-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse Mintlify llms-full.txt files and extract English-only documentation",
   "main": "mintlify-parser.js",
   "bin": {
