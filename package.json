@@ -1,0 +1,39 @@
+{
+  "name": "mintlify-parser",
+  "version": "1.0.0",
+  "description": "Parse Mintlify llms-full.txt files and extract English-only documentation",
+  "main": "mintlify-parser.js",
+  "bin": {
+    "mintlify-parser": "./mintlify-parser.js"
+  },
+  "scripts": {
+    "start": "node mintlify-parser.js"
+  },
+  "keywords": [
+    "mintlify",
+    "parser",
+    "llms",
+    "documentation",
+    "markdown",
+    "llms-txt",
+    "english-filter"
+  ],
+  "author": "chiragasarpota",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chiragasarpota/mintlify-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chiragasarpota/mintlify-parser/issues"
+  },
+  "homepage": "https://github.com/chiragasarpota/mintlify-parser#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "mintlify-parser.js",
+    "README.md",
+    "LICENSE"
+  ]
+}

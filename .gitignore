@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Output files
+*.md
+!README.md
+
+# Raw downloads
+raw_llms.txt
+llms_summary.md
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
